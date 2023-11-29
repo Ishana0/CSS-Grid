@@ -1,0 +1,15 @@
+#images{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    gap: 60px;
+    justify-content: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+span{
+    font-family: fantasy;
+}
+
